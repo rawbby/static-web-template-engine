@@ -2,7 +2,7 @@
 
 A template engine to generate static web pages from a template directory.
 
-## Template
+## Template Directory
 
 ### Options
 ### Files
@@ -10,7 +10,13 @@ A template engine to generate static web pages from a template directory.
 
 ## Usage
 
-Help:
+### Download
+
+```shell
+curl https://raw.githubusercontent.com/rawbby/static-web-template-engine/release/swte.py -o swte.py
+```
+
+### Help:
 ```shell
 python swte.py <template_directory> <deploy_directory>
 ```
